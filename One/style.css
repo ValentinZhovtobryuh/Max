@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Debussy';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Debussy"), url("/fonts/Debuusy/debussy.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  background-image: url(images/0.png);
+  background-repeat: no-repeat;
+  background-position-x: 130px;
+  background-position-y: 17px;
+  border: 1px solid red;
+}
+
+.logo {
+  display: inline-block;
+  background-image: url("images/LOGO.png");
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 66px;
+  width: 127px;
+  height: 99px;
+}
+
+.elka {
+  position: absolute;
+  margin-left: 391px;
+  margin-top: 146px;
+}
+
+.box8 {
+  position: absolute;
+  margin-left: 112px;
+  margin-top: 920px;
+}
+
+.box7 {
+  position: absolute;
+  margin-left: 953px;
+  margin-top: 842px;
+}
+
+.box6 {
+  position: absolute;
+  margin-left: 478px;
+  margin-top: 884px;
+}
+
+.box5 {
+  position: absolute;
+  margin-left: 746px;
+  margin-top: 807px;
+}
+
+.box4 {
+  position: absolute;
+  margin-left: 349px;
+  margin-top: 805px;
+}
+
+.santa {
+  position: absolute;
+  margin-left: 1059px;
+  margin-top: 524px;
+}
+
+.stars {
+  position: absolute;
+  margin-left: 1302px;
+  margin-top: 77px;
+}
+
+.headlead {
+  position: absolute;
+  width: 450px;
+  height: 90px;
+  margin-left: 1378px;
+  margin-top: 135px;
+  font-family: 'Montserrat', sans-serif;
+  color: #4d4d4d;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.lead {
+  position: absolute;
+  width: 430px;
+  height: 90px;
+  margin-left: 1378px;
+  margin-top: 210px;
+  font-family: 'Montserrat', sans-serif;
+  color: #faa61a;
+  font-size: 9em;
+  font-weight: bold;
+}
+
+.namelead {
+  position: absolute;
+  width: 430px;
+  height: 90px;
+  margin-left: 1478px;
+  margin-top: 400px;
+  font-family: 'Montserrat', sans-serif;
+  color: #4d4d4d;
+  font-size: 42pt;
+  font-weight: 800;
+}
+
+.nametext {
+  position: absolute;
+  width: 430px;
+  height: 280px;
+  margin-left: 1478px;
+  margin-top: 560px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4d4d4d;
+  font-size: 18pt;
+  line-height: 1;
+}
+
+.foottxt {
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 980px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fffefe;
+  font-size: 30pt;
+  font-weight: 800;
+}
+
+.footbg {
+  position: absolute;
+  margin-left: 88px;
+  margin-top: 964px;
+  background-image: url(images/footer.png);
+}
+/*# sourceMappingURL=style.css.map */
